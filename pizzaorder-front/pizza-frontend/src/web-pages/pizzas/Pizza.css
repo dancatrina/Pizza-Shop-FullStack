@@ -1,0 +1,67 @@
+.container-elements-pizza{
+    margin: 40px 10px;
+
+}
+
+.banner-oferta{
+    display: flex;
+    height: 38px;
+
+    background-color: 	black;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner-text{
+    color: white;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 19px;
+}
+
+.container-space-elements{
+
+    width: 100%;
+
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+
+    border-width: 1.5px;
+}
+
+.container-pizza-elements{
+    flex-grow: 1;
+    display: grid;
+    padding: 20px 20px;
+    grid-template-columns: repeat(4,auto);
+    gap:80px;
+    row-gap: 20px;;
+
+    align-items: center;
+    align-content: center;
+}
+
+@media only screen and (max-width: 1250px){
+    .container-pizza-elements{
+        grid-template-columns: repeat(3,30%);
+
+    }
+}
+
+@media only screen and (max-width: 1143px){
+    .container-pizza-elements{
+        grid-template-columns: repeat(2,60%);
+    }
+}
+
+@media only screen and (max-width: 900px){
+
+    .container-pizza-elements{
+        grid-template-columns: repeat(1,60%);
+    }
+}

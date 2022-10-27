@@ -1,0 +1,5 @@
+1) Security
+2) Comanda
+3) AOP for logs
+4) Email System;
+5) Event Driven System for changes based on AOP

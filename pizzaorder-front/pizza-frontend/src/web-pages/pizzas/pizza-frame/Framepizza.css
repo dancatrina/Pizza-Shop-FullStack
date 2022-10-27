@@ -1,0 +1,66 @@
+.pizza-frame{
+    width: 240px;
+    height: 280px;
+
+
+    border-top: 0px;
+
+    cursor: pointer;
+}
+
+.pizza-title{
+    display: flex;
+    
+    width: 240px;
+    height: 35px;
+    background: rgb(171, 34, 34);
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    border-style: solid;
+    border-width: 0px;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 17px;
+
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(252, 230, 230);
+
+
+}
+
+.pizza-image{
+    width: 240px;
+    height: 200px;
+    
+    border-style: solid;
+    border-width: 1.6px;
+    border-top: 0px;
+
+    padding-top: 8px;
+}
+
+.pizza-pret{
+
+    display: flex;
+
+    width: 240px;
+    height: 40px;
+
+    border-style: solid;
+    border-width: 1.6px;
+    border-top:0px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+}
